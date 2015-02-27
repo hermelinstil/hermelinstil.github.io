@@ -4,7 +4,8 @@
 	<!-- <meta http-equiv="refresh" content="0" url="mycustomscheme://mycustomhost" /> -->
 	<script>
 	
-		alert(window.location.search.substring(1).split("&"));
+		params = window.location.search.substring(1).split("&");
+		alert("mycustomscheme://" + params[0] + " " + params[1]; 
 		
 	</script>
 </head>
